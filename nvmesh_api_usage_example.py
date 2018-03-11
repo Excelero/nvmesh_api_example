@@ -33,6 +33,9 @@
 # Maintainer:    Andreas Krause
 # Email:         andreas@excelero.com
 # 
+# This script is intended to give you an idea and a start to create your own scrips or extend and reuse this one as you wish.
+# It shows some examples to get information out of the NVMesh cluster and also to set and configure a few things.
+# Also, it provides you with an example of a programatic approach to set up drive/disk classes automatically based on target/server names and the installed devices.
 # Use at your own risk!
 
 # Importing the required packages
@@ -219,3 +222,4 @@ print json.dumps(disk_classes_list, indent=4)
 # post the required information to the server/api and print out the return code. Return code "null" means all good
 print json.dumps(api_session.post(api_root + "/diskClasses/save", json=json.loads(json.dumps(disk_classes_list)), )
                  .json())
+
