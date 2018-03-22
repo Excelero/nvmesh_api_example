@@ -1,5 +1,5 @@
 #!/usr/bin/python
-# To make this excample tool work, you need to install the Requests Python package on the client/machine where you
+# To make this example tool/script work, you need to install the Requests Python package on the client/machine where you
 # intend to use it. The download information and instructions on how install the requests package can be found here:
 # http://docs.python-requests.org/en/master/user/install/#install
 #
